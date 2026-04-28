@@ -2,6 +2,8 @@
 
 pub mod math;
 
+pub mod detour;
+
 use egg::{BackoffScheduler, Extractor, FromOp, Id, Language, SimpleScheduler, StopReason, Symbol};
 use indexmap::IndexMap;
 use libc::{c_void, strlen};
@@ -182,6 +184,37 @@ pub unsafe extern "C" fn egraph_run(
             context.runner.with_scheduler(BackoffScheduler::default())
         };
 
+        if std::env::var("DETOUR").is_ok() { // alternative
+            println!("detour active!");
+            let mut eg = context.runner.egraph.clone();
+            let roots = context.runner.roots.clone();
+            let hook = Box::new(|eg: &mut EGraph| {
+                if eg.analysis.unsound.load(Ordering::SeqCst) {
+                    Err("Unsoundness detected".into())
+                } else {
+                    Ok(())
+                }
+            });
+            let cf: for<'a> fn(&'a _) -> _ = |_|1;
+            let cfg_offset = 300;
+            let cfg_unreachable_cost = 300;
+            let report = crate::detour::detour_run(
+                &*roots,
+                &context.rules,
+                &mut eg,
+                &mut [hook],
+                Duration::from_secs(u64::MAX),
+                node_limit as _,
+                cf,
+                cfg_offset,
+                cfg_unreachable_cost
+            );
+            dbg!(report);
+
+            panic!();
+        }
+
+        let start_time = std::time::Instant::now();
         context.runner = context
             .runner
             .with_node_limit(node_limit as usize)
@@ -195,6 +228,11 @@ pub unsafe extern "C" fn egraph_run(
                 }
             })
             .run(&context.rules);
+        let mut report = context.runner.report();
+        report.total_time = start_time.elapsed().as_secs_f64();
+
+        dbg!(report);
+        panic!();
     }
 
     // Prune all e-nodes with children where its e-class has a leaf node (with no children). Pruning
