@@ -4,7 +4,7 @@ pub mod math;
 
 pub mod detour;
 
-use egg::{BackoffScheduler, Extractor, FromOp, Id, Language, SimpleScheduler, StopReason, Symbol};
+use egg::{BackoffScheduler, Extractor, FromOp, Id, Language, SimpleScheduler, StopReason, Symbol, Report};
 use indexmap::IndexMap;
 use libc::{c_void, strlen};
 use math::*;
@@ -147,6 +147,60 @@ unsafe fn ffirule_to_tuple(rule_ptr: *mut FFIRule) -> (String, String, String) {
     )
 }
 
+fn eqsat_fn() -> fn(&mut Context, usize, usize) -> Report {
+    match std::env::var("EQSAT_FN").as_deref() {
+        Ok("detour") => eqsat_detour,
+        Ok("original") => eqsat_original,
+        _ => panic!("invalid eqsat_fn"),
+    }
+}
+
+fn eqsat_detour(context: &mut Context, node_limit: usize, iter_limit: usize) -> Report {
+    let mut eg = context.runner.egraph.clone();
+    let roots = context.runner.roots.clone();
+    let hook = Box::new(|eg: &mut EGraph| {
+        if eg.analysis.unsound.load(Ordering::SeqCst) {
+            Err("Unsoundness detected".into())
+        } else {
+            Ok(())
+        }
+    });
+    let cf: for<'a> fn(&'a _) -> _ = |_|1;
+    let cfg_offset = 300;
+    let cfg_unreachable_cost = 300;
+    crate::detour::detour_run(
+        &*roots,
+        &context.rules,
+        &mut eg,
+        &mut [hook],
+        Duration::from_secs(u64::MAX),
+        node_limit as _,
+        cf,
+        cfg_offset,
+        cfg_unreachable_cost
+    )
+}
+
+fn eqsat_original(context: &mut Context, node_limit: usize, iter_limit: usize) -> Report {
+    let start_time = std::time::Instant::now();
+    let runner = std::mem::replace(&mut context.runner, Runner::new(Default::default()));
+    context.runner = runner
+        .with_node_limit(node_limit)
+        .with_iter_limit(iter_limit) // should never hit
+        .with_time_limit(Duration::from_secs(u64::MAX))
+        .with_hook(|r| {
+            if r.egraph.analysis.unsound.load(Ordering::SeqCst) {
+                Err("Unsoundness detected".into())
+            } else {
+                Ok(())
+            }
+        })
+        .run(&context.rules);
+    let mut report = context.runner.report();
+    report.total_time = start_time.elapsed().as_secs_f64();
+    report
+}
+
 #[no_mangle]
 pub unsafe extern "C" fn egraph_run(
     ptr: *mut Context,
@@ -184,54 +238,15 @@ pub unsafe extern "C" fn egraph_run(
             context.runner.with_scheduler(BackoffScheduler::default())
         };
 
-        if std::env::var("DETOUR").is_ok() { // alternative
-            println!("detour active!");
-            let mut eg = context.runner.egraph.clone();
-            let roots = context.runner.roots.clone();
-            let hook = Box::new(|eg: &mut EGraph| {
-                if eg.analysis.unsound.load(Ordering::SeqCst) {
-                    Err("Unsoundness detected".into())
-                } else {
-                    Ok(())
-                }
-            });
-            let cf: for<'a> fn(&'a _) -> _ = |_|1;
-            let cfg_offset = 300;
-            let cfg_unreachable_cost = 300;
-            let report = crate::detour::detour_run(
-                &*roots,
-                &context.rules,
-                &mut eg,
-                &mut [hook],
-                Duration::from_secs(u64::MAX),
-                node_limit as _,
-                cf,
-                cfg_offset,
-                cfg_unreachable_cost
-            );
-            dbg!(report);
-
-            panic!();
-        }
-
-        let start_time = std::time::Instant::now();
-        context.runner = context
-            .runner
-            .with_node_limit(node_limit as usize)
-            .with_iter_limit(iter_limit as usize) // should never hit
-            .with_time_limit(Duration::from_secs(u64::MAX))
-            .with_hook(|r| {
-                if r.egraph.analysis.unsound.load(Ordering::SeqCst) {
-                    Err("Unsoundness detected".into())
-                } else {
-                    Ok(())
-                }
-            })
-            .run(&context.rules);
-        let mut report = context.runner.report();
-        report.total_time = start_time.elapsed().as_secs_f64();
+        let report = eqsat_fn()(&mut context, node_limit as usize, iter_limit as usize);
 
         dbg!(report);
+        let extractor = Extractor::new(&context.runner.egraph, AltCost::new(&context.runner.egraph));
+        for r in &context.runner.roots {
+                let (cost, best) = extractor.find_best(*r);
+                let ext = Extracted { cost, best };
+                dbg!(r, cost);
+        }
         panic!();
     }
 
