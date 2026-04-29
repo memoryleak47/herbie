@@ -1,0 +1,2282 @@
+Going for 'bench/hamming/series.fpcore'
+Starting Herbie 2.3 with seed 810717783...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4117,
+    ),
+    egraph_nodes: 3846,
+    egraph_classes: 1541,
+    memo_size: 4152,
+    rebuilds: 81,
+    total_time: 0.009940784,
+    search_time: 0.004363545,
+    apply_time: 0.004585116,
+    rebuild_time: 0.00037114600000000004,
+}
+3 has cost 4
+6 has cost 5
+7 has cost 5
+
+thread '<unnamed>' (52119) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52119 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/hamming/overflow-underflow.fpcore'
+Starting Herbie 2.3 with seed 1413843388...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4278,
+    ),
+    egraph_nodes: 3955,
+    egraph_classes: 1482,
+    memo_size: 4303,
+    rebuilds: 82,
+    total_time: 0.014429392,
+    search_time: 0.007653519,
+    apply_time: 0.005607983,
+    rebuild_time: 0.000434087,
+}
+4 has cost 7
+8 has cost 8
+9 has cost 8
+
+thread '<unnamed>' (52131) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52131 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/hamming/rearrangement.fpcore'
+Starting Herbie 2.3 with seed 699777449...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4105,
+    ),
+    egraph_nodes: 1857,
+    egraph_classes: 416,
+    memo_size: 4107,
+    rebuilds: 597,
+    total_time: 0.025158912,
+    search_time: 0.012691754,
+    apply_time: 0.010549679999999999,
+    rebuild_time: 0.001558466,
+}
+5 has cost 1
+10 has cost 1
+11 has cost 1
+
+thread '<unnamed>' (52144) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52144 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/hamming/quadratic.fpcore'
+Starting Herbie 2.3 with seed 1509751515...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4152,
+    ),
+    egraph_nodes: 3878,
+    egraph_classes: 1714,
+    memo_size: 4154,
+    rebuilds: 64,
+    total_time: 0.0087121,
+    search_time: 0.003817701,
+    apply_time: 0.0037286619999999998,
+    rebuild_time: 0.00035073,
+}
+13 has cost 16
+21 has cost 16
+27 has cost 16
+34 has cost 16
+35 has cost 16
+36 has cost 16
+37 has cost 16
+45 has cost 16
+52 has cost 16
+59 has cost 16
+
+thread '<unnamed>' (52156) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52156 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/hamming/machine-decide.fpcore'
+Starting Herbie 2.3 with seed 572345348...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4020,
+    ),
+    egraph_nodes: 3843,
+    egraph_classes: 1537,
+    memo_size: 4029,
+    rebuilds: 48,
+    total_time: 0.010021873,
+    search_time: 0.004479116,
+    apply_time: 0.004475166,
+    rebuild_time: 0.000361804,
+}
+5 has cost 6
+9 has cost 7
+13 has cost 7
+14 has cost 7
+15 has cost 7
+18 has cost 6
+
+thread '<unnamed>' (52169) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52169 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/hamming/trigonometry.fpcore'
+Starting Herbie 2.3 with seed 511389666...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        5455,
+    ),
+    egraph_nodes: 4431,
+    egraph_classes: 2753,
+    memo_size: 5455,
+    rebuilds: 356,
+    total_time: 0.018929617,
+    search_time: 0.012230541999999999,
+    apply_time: 0.004552085,
+    rebuild_time: 0.0006080250000000001,
+}
+5 has cost 7
+10 has cost 7
+14 has cost 7
+15 has cost 7
+16 has cost 7
+20 has cost 7
+
+thread '<unnamed>' (52181) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52181 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/rump.fpcore'
+Starting Herbie 2.3 with seed 517357981...
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4022,
+    ),
+    egraph_nodes: 3820,
+    egraph_classes: 779,
+    memo_size: 4034,
+    rebuilds: 33,
+    total_time: 0.02910916,
+    search_time: 0.006201954,
+    apply_time: 0.021800063,
+    rebuild_time: 0.0005856,
+}
+0 has cost 1
+0 has cost 1
+0 has cost 1
+1 has cost 1
+1 has cost 1
+0 has cost 1
+
+thread '<unnamed>' (52193) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52193 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/martel.fpcore'
+Warning: unusual variable e; did you mean E?
+See <https://herbie.uwplse.org/doc/2.3/faq.html#strange-variable> for more.
+Starting Herbie 2.3 with seed 705161297...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4017,
+    ),
+    egraph_nodes: 4012,
+    egraph_classes: 560,
+    memo_size: 4024,
+    rebuilds: 0,
+    total_time: 0.055853164,
+    search_time: 0.031880491999999996,
+    apply_time: 0.022850772,
+    rebuild_time: 0.000502762,
+}
+18 has cost 1
+
+thread '<unnamed>' (52205) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52205 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/libm.fpcore'
+Starting Herbie 2.3 with seed 919352729...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4242,
+    ),
+    egraph_nodes: 3370,
+    egraph_classes: 1115,
+    memo_size: 4242,
+    rebuilds: 98,
+    total_time: 0.015486458,
+    search_time: 0.008621647,
+    apply_time: 0.00563413,
+    rebuild_time: 0.000527075,
+}
+7 has cost 1
+12 has cost 1
+17 has cost 1
+21 has cost 1
+22 has cost 1
+23 has cost 1
+24 has cost 1
+28 has cost 1
+32 has cost 1
+36 has cost 1
+
+thread '<unnamed>' (52218) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52218 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/polynomial-cancellation.fpcore'
+Starting Herbie 2.3 with seed 1455245433...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4174,
+    ),
+    egraph_nodes: 4172,
+    egraph_classes: 785,
+    memo_size: 4174,
+    rebuilds: 0,
+    total_time: 0.048858164,
+    search_time: 0.017642392,
+    apply_time: 0.029921156,
+    rebuild_time: 0.000503174,
+}
+61 has cost 1
+
+thread '<unnamed>' (52231) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52231 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/fma.fpcore'
+Starting Herbie 2.3 with seed 788996270...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4111,
+    ),
+    egraph_nodes: 3026,
+    egraph_classes: 834,
+    memo_size: 4111,
+    rebuilds: 264,
+    total_time: 0.02383472,
+    search_time: 0.016195145,
+    apply_time: 0.0064381790000000005,
+    rebuild_time: 0.0005168309999999999,
+}
+10 has cost 13
+17 has cost 13
+18 has cost 13
+
+thread '<unnamed>' (52243) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52243 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/every-cs.fpcore'
+Starting Herbie 2.3 with seed 339574669...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4320,
+    ),
+    egraph_nodes: 3866,
+    egraph_classes: 1707,
+    memo_size: 4322,
+    rebuilds: 100,
+    total_time: 0.008954649,
+    search_time: 0.003816773,
+    apply_time: 0.003919145,
+    rebuild_time: 0.000380566,
+}
+13 has cost 16
+21 has cost 16
+27 has cost 16
+33 has cost 16
+34 has cost 16
+35 has cost 16
+36 has cost 16
+44 has cost 16
+51 has cost 16
+57 has cost 16
+
+thread '<unnamed>' (52255) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52255 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/great-debate.fpcore'
+Starting Herbie 2.3 with seed 795515688...
+Warning: could not determine a ground truth
+  y = 1404.0383372855185
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+Warning: could not determine a ground truth
+  y = 1404.0383372855185
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4050,
+    ),
+    egraph_nodes: 3056,
+    egraph_classes: 1096,
+    memo_size: 4088,
+    rebuilds: 196,
+    total_time: 0.011035801,
+    search_time: 0.004741995,
+    apply_time: 0.005058576,
+    rebuild_time: 0.000629448,
+}
+8 has cost 15
+15 has cost 15
+22 has cost 15
+23 has cost 15
+24 has cost 15
+29 has cost 15
+
+thread '<unnamed>' (52267) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52267 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/rosa.fpcore'
+Warning: + is deprecated as a variary operator
+Starting Herbie 2.3 with seed 972471997...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4030,
+    ),
+    egraph_nodes: 2785,
+    egraph_classes: 712,
+    memo_size: 4035,
+    rebuilds: 232,
+    total_time: 0.010142018,
+    search_time: 0.003610284,
+    apply_time: 0.005553459,
+    rebuild_time: 0.000492536,
+}
+7 has cost 10
+11 has cost 10
+14 has cost 9
+19 has cost 9
+20 has cost 9
+21 has cost 10
+22 has cost 10
+26 has cost 10
+30 has cost 10
+34 has cost 10
+
+thread '<unnamed>' (52279) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52279 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/kahan.fpcore'
+Starting Herbie 2.3 with seed 146016632...
+Warning: 74.8% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4501,
+    ),
+    egraph_nodes: 3984,
+    egraph_classes: 1424,
+    memo_size: 4516,
+    rebuilds: 120,
+    total_time: 0.015267838,
+    search_time: 0.008355787,
+    apply_time: 0.0056506279999999996,
+    rebuild_time: 0.000529709,
+}
+4 has cost 6
+8 has cost 7
+9 has cost 7
+
+thread '<unnamed>' (52292) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52292 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/hamming-misc.fpcore'
+Starting Herbie 2.3 with seed 410778438...
+Warning: could not determine a ground truth
+  x = -5.389104145869844e+62
+  eps = -4.930685593127629e-277
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+Warning: 62.3% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4724,
+    ),
+    egraph_nodes: 4275,
+    egraph_classes: 1781,
+    memo_size: 4724,
+    rebuilds: 105,
+    total_time: 0.011750034,
+    search_time: 0.005661074,
+    apply_time: 0.004687003,
+    rebuild_time: 0.000443128,
+}
+18 has cost 27
+29 has cost 27
+45 has cost 27
+46 has cost 27
+47 has cost 27
+62 has cost 27
+
+thread '<unnamed>' (52304) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52304 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/numerics/conte.fpcore'
+Starting Herbie 2.3 with seed 22880169...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4020,
+    ),
+    egraph_nodes: 3810,
+    egraph_classes: 2523,
+    memo_size: 4094,
+    rebuilds: 86,
+    total_time: 0.007804936,
+    search_time: 0.00249397,
+    apply_time: 0.003914,
+    rebuild_time: 0.000365986,
+}
+3 has cost 4
+6 has cost 4
+7 has cost 4
+
+thread '<unnamed>' (52316) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52316 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/rust.fpcore'
+Starting Herbie 2.3 with seed 1749525404...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4010,
+    ),
+    egraph_nodes: 3305,
+    egraph_classes: 1052,
+    memo_size: 4150,
+    rebuilds: 188,
+    total_time: 0.014856056,
+    search_time: 0.004124074,
+    apply_time: 0.009672764,
+    rebuild_time: 0.000511141,
+}
+1 has cost 2
+3 has cost 3
+4 has cost 2
+
+thread '<unnamed>' (52329) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52329 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/basilisk.fpcore'
+Warning: unusual variable e; did you mean E?
+See <https://herbie.uwplse.org/doc/2.3/faq.html#strange-variable> for more.
+Starting Herbie 2.3 with seed 1645693913...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4144,
+    ),
+    egraph_nodes: 3538,
+    egraph_classes: 1474,
+    memo_size: 4165,
+    rebuilds: 184,
+    total_time: 0.017208734,
+    search_time: 0.010086989999999999,
+    apply_time: 0.005752204,
+    rebuild_time: 0.000497596,
+}
+14 has cost 21
+22 has cost 21
+31 has cost 21
+32 has cost 21
+33 has cost 21
+44 has cost 21
+
+thread '<unnamed>' (52341) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52341 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/coolprop.fpcore'
+Starting Herbie 2.3 with seed 1222838651...
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4083,
+    ),
+    egraph_nodes: 3936,
+    egraph_classes: 1601,
+    memo_size: 4130,
+    rebuilds: 39,
+    total_time: 0.02403563,
+    search_time: 0.014072997,
+    apply_time: 0.00860262,
+    rebuild_time: 0.00043020000000000005,
+}
+5 has cost 6
+8 has cost 7
+10 has cost 5
+13 has cost 7
+14 has cost 6
+15 has cost 6
+16 has cost 6
+18 has cost 6
+20 has cost 6
+22 has cost 6
+
+thread '<unnamed>' (52353) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52353 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/fast-math.fpcore'
+Starting Herbie 2.3 with seed 1366590311...
+Warning: 79.4% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4058,
+    ),
+    egraph_nodes: 3575,
+    egraph_classes: 838,
+    memo_size: 4060,
+    rebuilds: 30,
+    total_time: 0.026868405,
+    search_time: 0.008031304,
+    apply_time: 0.01766741,
+    rebuild_time: 0.000535935,
+}
+5 has cost 5
+9 has cost 6
+12 has cost 5
+15 has cost 5
+16 has cost 5
+17 has cost 5
+18 has cost 5
+21 has cost 5
+24 has cost 5
+25 has cost 5
+
+thread '<unnamed>' (52365) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52365 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/octave/randgamma.fpcore'
+Starting Herbie 2.3 with seed 160103303...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4342,
+    ),
+    egraph_nodes: 4099,
+    egraph_classes: 1725,
+    memo_size: 4342,
+    rebuilds: 48,
+    total_time: 0.009097937,
+    search_time: 0.0038971469999999997,
+    apply_time: 0.004071112,
+    rebuild_time: 0.000347679,
+}
+13 has cost 14
+21 has cost 16
+25 has cost 14
+26 has cost 15
+27 has cost 14
+34 has cost 14
+
+thread '<unnamed>' (52377) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52377 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/octave/CollocWt.fpcore'
+Starting Herbie 2.3 with seed 836084633...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4242,
+    ),
+    egraph_nodes: 3850,
+    egraph_classes: 1553,
+    memo_size: 4267,
+    rebuilds: 64,
+    total_time: 0.009268019,
+    search_time: 0.003088042,
+    apply_time: 0.005221687,
+    rebuild_time: 0.000387535,
+}
+9 has cost 13
+16 has cost 13
+23 has cost 13
+24 has cost 13
+25 has cost 13
+31 has cost 13
+
+thread '<unnamed>' (52389) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52389 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/mathjs/probability.fpcore'
+Starting Herbie 2.3 with seed 1019057151...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4167,
+    ),
+    egraph_nodes: 3052,
+    egraph_classes: 1436,
+    memo_size: 4167,
+    rebuilds: 281,
+    total_time: 0.019566124,
+    search_time: 0.013108023,
+    apply_time: 0.004963878999999999,
+    rebuild_time: 0.000524377,
+}
+18 has cost 16
+25 has cost 16
+30 has cost 16
+31 has cost 16
+32 has cost 16
+40 has cost 16
+
+thread '<unnamed>' (52401) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52401 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/mathjs/arithmetic.fpcore'
+Starting Herbie 2.3 with seed 2106420653...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4284,
+    ),
+    egraph_nodes: 3934,
+    egraph_classes: 1440,
+    memo_size: 4302,
+    rebuilds: 85,
+    total_time: 0.013556228,
+    search_time: 0.004073436,
+    apply_time: 0.008418198,
+    rebuild_time: 0.000406176,
+}
+5 has cost 8
+9 has cost 8
+13 has cost 8
+14 has cost 9
+15 has cost 9
+17 has cost 8
+
+thread '<unnamed>' (52413) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52413 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/mathjs/trigonometry.fpcore'
+Starting Herbie 2.3 with seed 1067520971...
+Warning: 50.4% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4135,
+    ),
+    egraph_nodes: 2979,
+    egraph_classes: 1186,
+    memo_size: 4135,
+    rebuilds: 322,
+    total_time: 0.021921815,
+    search_time: 0.016035044000000002,
+    apply_time: 0.0044538550000000005,
+    rebuild_time: 0.000538382,
+}
+9 has cost 5
+13 has cost 5
+17 has cost 5
+18 has cost 6
+19 has cost 6
+25 has cost 5
+
+thread '<unnamed>' (52425) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52425 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/mathjs/complex.fpcore'
+Starting Herbie 2.3 with seed 224784305...
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4032,
+    ),
+    egraph_nodes: 3830,
+    egraph_classes: 817,
+    memo_size: 4044,
+    rebuilds: 33,
+    total_time: 0.027793339,
+    search_time: 0.006471589999999999,
+    apply_time: 0.020195637,
+    rebuild_time: 0.0005670069999999999,
+}
+2 has cost 3
+4 has cost 4
+6 has cost 4
+7 has cost 5
+8 has cost 5
+9 has cost 3
+
+thread '<unnamed>' (52437) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52437 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/libraries/jmatjs.fpcore'
+Starting Herbie 2.3 with seed 3758121...
+Warning: could not determine a ground truth
+  z = 4.324007075214147e+186
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+Warning: could not determine a ground truth
+  z = -21080085811583.4
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4017,
+    ),
+    egraph_nodes: 3865,
+    egraph_classes: 1754,
+    memo_size: 4115,
+    rebuilds: 33,
+    total_time: 0.008865288,
+    search_time: 0.002183221,
+    apply_time: 0.005314442,
+    rebuild_time: 0.000366578,
+}
+59 has cost 94
+98 has cost 95
+99 has cost 94
+
+thread '<unnamed>' (52449) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52449 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/demo.fpcore'
+Warning: + is deprecated as a variary operator
+Warning: / is deprecated as a unary operator
+Starting Herbie 2.3 with seed 1962033217...
+Warning: 79.4% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4082,
+    ),
+    egraph_nodes: 3714,
+    egraph_classes: 1710,
+    memo_size: 4094,
+    rebuilds: 104,
+    total_time: 0.009005781,
+    search_time: 0.004411926,
+    apply_time: 0.003537254,
+    rebuild_time: 0.000354983,
+}
+9 has cost 10
+16 has cost 11
+22 has cost 10
+26 has cost 11
+27 has cost 12
+28 has cost 11
+29 has cost 12
+35 has cost 10
+41 has cost 10
+46 has cost 10
+
+thread '<unnamed>' (52462) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52462 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/tea-whistle.fpcore'
+Starting Herbie 2.3 with seed 81257122...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4520,
+    ),
+    egraph_nodes: 3603,
+    egraph_classes: 1100,
+    memo_size: 4520,
+    rebuilds: 221,
+    total_time: 0.017328334,
+    search_time: 0.010116484,
+    apply_time: 0.005669907,
+    rebuild_time: 0.0005388540000000001,
+}
+7 has cost 8
+9 has cost 9
+13 has cost 8
+18 has cost 8
+23 has cost 8
+24 has cost 8
+25 has cost 9
+26 has cost 9
+27 has cost 9
+30 has cost 8
+34 has cost 8
+38 has cost 8
+42 has cost 8
+46 has cost 8
+50 has cost 8
+
+thread '<unnamed>' (52474) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52474 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/tea-flows.fpcore'
+Starting Herbie 2.3 with seed 275867760...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4202,
+    ),
+    egraph_nodes: 2854,
+    egraph_classes: 969,
+    memo_size: 4398,
+    rebuilds: 338,
+    total_time: 0.008738714,
+    search_time: 0.002446428,
+    apply_time: 0.005256341,
+    rebuild_time: 0.00056463,
+}
+9 has cost 12
+14 has cost 12
+19 has cost 12
+20 has cost 12
+21 has cost 12
+27 has cost 12
+
+thread '<unnamed>' (52486) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52486 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/dimer-escape.fpcore'
+Starting Herbie 2.3 with seed 1296805944...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4052,
+    ),
+    egraph_nodes: 3322,
+    egraph_classes: 1477,
+    memo_size: 4120,
+    rebuilds: 329,
+    total_time: 0.010591678,
+    search_time: 0.005317267,
+    apply_time: 0.003968352,
+    rebuild_time: 0.000427613,
+}
+16 has cost 21
+26 has cost 21
+36 has cost 21
+42 has cost 21
+43 has cost 21
+44 has cost 21
+45 has cost 21
+56 has cost 21
+65 has cost 21
+74 has cost 21
+
+thread '<unnamed>' (52499) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52499 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/gravitation.fpcore'
+Starting Herbie 2.3 with seed 1283026501...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4079,
+    ),
+    egraph_nodes: 3377,
+    egraph_classes: 1296,
+    memo_size: 4090,
+    rebuilds: 91,
+    total_time: 0.058212456,
+    search_time: 0.044160544,
+    apply_time: 0.012416027999999999,
+    rebuild_time: 0.00054048,
+}
+12 has cost 18
+
+thread '<unnamed>' (52511) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52511 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/multiphoton-states.fpcore'
+Starting Herbie 2.3 with seed 1327524504...
+Warning: Could not converge on a ground truth
+  k = 2.2036551004408907e+30
+  n = -1.779746015481158e+303
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4011,
+    ),
+    egraph_nodes: 2609,
+    egraph_classes: 699,
+    memo_size: 4097,
+    rebuilds: 357,
+    total_time: 0.020538499,
+    search_time: 0.012394001,
+    apply_time: 0.0069162849999999994,
+    rebuild_time: 0.000578648,
+}
+12 has cost 14
+19 has cost 14
+23 has cost 14
+24 has cost 15
+25 has cost 15
+32 has cost 14
+
+thread '<unnamed>' (52523) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52523 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/superfluidity-breakdown.fpcore'
+Starting Herbie 2.3 with seed 502947165...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4851,
+    ),
+    egraph_nodes: 4029,
+    egraph_classes: 1297,
+    memo_size: 4858,
+    rebuilds: 249,
+    total_time: 0.014523463,
+    search_time: 0.007873471,
+    apply_time: 0.00515656,
+    rebuild_time: 0.000469163,
+}
+15 has cost 19
+23 has cost 19
+31 has cost 19
+38 has cost 19
+45 has cost 19
+46 has cost 20
+47 has cost 20
+48 has cost 20
+49 has cost 20
+56 has cost 19
+66 has cost 19
+76 has cost 19
+86 has cost 19
+92 has cost 19
+98 has cost 19
+
+thread '<unnamed>' (52535) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52535 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/gated-magnetic-field.fpcore'
+Starting Herbie 2.3 with seed 1468570050...
+Warning: could not determine a ground truth
+  NdChar = -1.205466292427878e+221
+  Ec = -9.006860980372146e-287
+  Vef = -7.145847651161525e-282
+  EDonor = 2.463094611863797e+140
+  mu = -2.062724287979093e+88
+  KbT = -6.241948792332564e-282
+  NaChar = 3.1177102237748054e+221
+  Ev = 5.0816296368851635e-146
+  EAccept = 2.201132021469099e+280
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4020,
+    ),
+    egraph_nodes: 3691,
+    egraph_classes: 1655,
+    memo_size: 4022,
+    rebuilds: 114,
+    total_time: 0.016852573,
+    search_time: 0.01210663,
+    apply_time: 0.002632036,
+    rebuild_time: 0.000343352,
+}
+26 has cost 29
+29 has cost 30
+39 has cost 30
+56 has cost 29
+65 has cost 29
+78 has cost 30
+88 has cost 30
+91 has cost 30
+100 has cost 30
+108 has cost 29
+109 has cost 31
+110 has cost 31
+111 has cost 30
+112 has cost 30
+113 has cost 31
+114 has cost 31
+115 has cost 31
+116 has cost 31
+117 has cost 30
+126 has cost 29
+142 has cost 29
+150 has cost 29
+162 has cost 29
+171 has cost 29
+174 has cost 29
+183 has cost 29
+191 has cost 29
+207 has cost 29
+216 has cost 29
+230 has cost 29
+243 has cost 29
+253 has cost 29
+269 has cost 29
+284 has cost 29
+300 has cost 29
+316 has cost 29
+332 has cost 29
+348 has cost 29
+364 has cost 29
+380 has cost 29
+393 has cost 29
+405 has cost 29
+414 has cost 29
+429 has cost 29
+443 has cost 29
+455 has cost 29
+467 has cost 29
+481 has cost 29
+494 has cost 29
+503 has cost 29
+515 has cost 29
+526 has cost 29
+534 has cost 29
+541 has cost 29
+549 has cost 29
+
+thread '<unnamed>' (52547) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52547 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/quantum-walk.fpcore'
+Starting Herbie 2.3 with seed 1826619573...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4027,
+    ),
+    egraph_nodes: 3589,
+    egraph_classes: 1460,
+    memo_size: 4041,
+    rebuilds: 112,
+    total_time: 0.009276088,
+    search_time: 0.004053491,
+    apply_time: 0.004037503,
+    rebuild_time: 0.000374745,
+}
+18 has cost 28
+30 has cost 28
+35 has cost 28
+36 has cost 28
+37 has cost 28
+49 has cost 28
+
+thread '<unnamed>' (52559) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52559 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/ballistics.fpcore'
+Starting Herbie 2.3 with seed 74098870...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4232,
+    ),
+    egraph_nodes: 3075,
+    egraph_classes: 944,
+    memo_size: 4232,
+    rebuilds: 110,
+    total_time: 0.032320009,
+    search_time: 0.022530535999999997,
+    apply_time: 0.008286202,
+    rebuild_time: 0.000544573,
+}
+11 has cost 11
+17 has cost 12
+23 has cost 11
+24 has cost 11
+25 has cost 12
+31 has cost 11
+
+thread '<unnamed>' (52571) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52571 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/kalman.fpcore'
+Starting Herbie 2.3 with seed 1360229802...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4181,
+    ),
+    egraph_nodes: 2804,
+    egraph_classes: 1057,
+    memo_size: 4181,
+    rebuilds: 400,
+    total_time: 0.085906313,
+    search_time: 0.078804696,
+    apply_time: 0.005629778,
+    rebuild_time: 0.000609701,
+}
+32 has cost 41
+56 has cost 41
+59 has cost 41
+60 has cost 41
+61 has cost 41
+84 has cost 41
+
+thread '<unnamed>' (52583) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52583 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/universal-linear-optics.fpcore'
+Starting Herbie 2.3 with seed 471296859...
+Warning: 39.4% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4022,
+    ),
+    egraph_nodes: 3270,
+    egraph_classes: 1035,
+    memo_size: 4032,
+    rebuilds: 208,
+    total_time: 0.009712397,
+    search_time: 0.0041308410000000005,
+    apply_time: 0.0045299419999999995,
+    rebuild_time: 0.00041140100000000004,
+}
+17 has cost 29
+29 has cost 29
+38 has cost 29
+39 has cost 29
+40 has cost 29
+50 has cost 29
+
+thread '<unnamed>' (52598) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52598 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/physics/sidey.fpcore'
+Starting Herbie 2.3 with seed 1328944778...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4213,
+    ),
+    egraph_nodes: 2684,
+    egraph_classes: 852,
+    memo_size: 4213,
+    rebuilds: 412,
+    total_time: 0.022314875,
+    search_time: 0.01496911,
+    apply_time: 0.005899089,
+    rebuild_time: 0.000577157,
+}
+13 has cost 17
+22 has cost 17
+30 has cost 17
+31 has cost 18
+32 has cost 18
+41 has cost 17
+
+thread '<unnamed>' (52610) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52610 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/log-transform.fpcore'
+Starting Herbie 2.3 with seed 483111726...
+Warning: could not determine a ground truth
+  c = 3.9599182904480765e-106
+  x = 3.697193237570607e+132
+  y = 5.278376391434461e-31
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4215,
+    ),
+    egraph_nodes: 3682,
+    egraph_classes: 1267,
+    memo_size: 4228,
+    rebuilds: 136,
+    total_time: 0.014878959,
+    search_time: 0.007816575000000001,
+    apply_time: 0.005535976,
+    rebuild_time: 0.0005425110000000001,
+}
+10 has cost 11
+12 has cost 12
+19 has cost 12
+24 has cost 11
+25 has cost 11
+26 has cost 13
+27 has cost 12
+33 has cost 11
+37 has cost 11
+43 has cost 11
+
+thread '<unnamed>' (52622) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52622 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/pbrt.fpcore'
+Starting Herbie 2.3 with seed 1313450077...
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4036,
+    ),
+    egraph_nodes: 3537,
+    egraph_classes: 1264,
+    memo_size: 4169,
+    rebuilds: 166,
+    total_time: 0.007901878,
+    search_time: 0.003239558,
+    apply_time: 0.003646443,
+    rebuild_time: 0.000379671,
+}
+18 has cost 21
+23 has cost 21
+28 has cost 21
+35 has cost 21
+42 has cost 21
+53 has cost 21
+54 has cost 21
+55 has cost 21
+56 has cost 21
+57 has cost 21
+58 has cost 21
+62 has cost 21
+70 has cost 21
+78 has cost 21
+89 has cost 21
+97 has cost 21
+101 has cost 21
+112 has cost 21
+118 has cost 21
+129 has cost 21
+140 has cost 21
+
+thread '<unnamed>' (52634) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52634 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/gyroid-sphere.fpcore'
+Starting Herbie 2.3 with seed 512760153...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4209,
+    ),
+    egraph_nodes: 3207,
+    egraph_classes: 2008,
+    memo_size: 4209,
+    rebuilds: 352,
+    total_time: 0.013532327,
+    search_time: 0.008355901,
+    apply_time: 0.0035619859999999996,
+    rebuild_time: 0.000448994,
+}
+30 has cost 53
+46 has cost 53
+62 has cost 53
+77 has cost 53
+78 has cost 54
+79 has cost 54
+80 has cost 54
+92 has cost 53
+101 has cost 53
+110 has cost 53
+
+thread '<unnamed>' (52647) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52647 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/quarter.fpcore'
+Starting Herbie 2.3 with seed 106099392...
+Warning: 56.0% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4088,
+    ),
+    egraph_nodes: 3422,
+    egraph_classes: 982,
+    memo_size: 4115,
+    rebuilds: 69,
+    total_time: 0.05360266,
+    search_time: 0.038309932,
+    apply_time: 0.01378666,
+    rebuild_time: 0.000561422,
+}
+9 has cost 13
+15 has cost 14
+21 has cost 14
+22 has cost 15
+23 has cost 15
+27 has cost 13
+
+thread '<unnamed>' (52659) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52659 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/colonnade.fpcore'
+Starting Herbie 2.3 with seed 844904735...
+Warning: could not determine a ground truth
+  x = 2.5058139173761032e+150
+  y = 1.8517772441333036e+102
+  z = -8.952091585552538e+235
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 1,
+    stop_reason: NodeLimit(
+        4594,
+    ),
+    egraph_nodes: 4594,
+    egraph_classes: 3771,
+    memo_size: 4594,
+    rebuilds: 0,
+    total_time: 0.021401543,
+    search_time: 0.014123442,
+    apply_time: 0.000768862,
+    rebuild_time: 0.00012938,
+}
+794 has cost 2844
+1186 has cost 2958
+1619 has cost 2989
+2106 has cost 3014
+2107 has cost 2959
+2108 has cost 2990
+2109 has cost 3015
+2658 has cost 2844
+3227 has cost 2844
+3769 has cost 2844
+
+thread '<unnamed>' (52671) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52671 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/bear.fpcore'
+Starting Herbie 2.3 with seed 1035376531...
+Warning: could not determine a ground truth
+  x = 1.5502854178584415e-205
+  y = 5.37181030803396e-244
+  z = 2.1614853133548663e+68
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 1,
+    stop_reason: NodeLimit(
+        4106,
+    ),
+    egraph_nodes: 4106,
+    egraph_classes: 4014,
+    memo_size: 4106,
+    rebuilds: 0,
+    total_time: 0.014498952,
+    search_time: 0.009584617,
+    apply_time: 0.000364232,
+    rebuild_time: 9.1449e-5,
+}
+656 has cost 17468
+1179 has cost 18109
+1704 has cost 18109
+2226 has cost 18109
+2227 has cost 18110
+2228 has cost 18110
+2229 has cost 18110
+2761 has cost 17468
+3296 has cost 17468
+3830 has cost 17468
+
+thread '<unnamed>' (52683) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52683 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/hi.fpcore'
+Starting Herbie 2.3 with seed 276348199...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4134,
+    ),
+    egraph_nodes: 3339,
+    egraph_classes: 1017,
+    memo_size: 4155,
+    rebuilds: 154,
+    total_time: 0.012465719,
+    search_time: 0.005342897,
+    apply_time: 0.0055260710000000005,
+    rebuild_time: 0.000412321,
+}
+56 has cost 103
+88 has cost 101
+121 has cost 100
+122 has cost 102
+123 has cost 101
+158 has cost 103
+
+thread '<unnamed>' (52695) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52695 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/fidget/prospero.fpcore'
+Starting Herbie 2.3 with seed 1692713209...
+[src/lib.rs:243:9] report = Report {
+    iterations: 1,
+    stop_reason: NodeLimit(
+        24418,
+    ),
+    egraph_nodes: 24418,
+    egraph_classes: 24418,
+    memo_size: 24418,
+    rebuilds: 0,
+    total_time: 0.018474025,
+    search_time: 5.6e-8,
+    apply_time: 3.99e-7,
+    rebuild_time: 0.000490662,
+}
+7590 has cost 26940
+13217 has cost 28837
+18147 has cost 29083
+18148 has cost 28838
+18149 has cost 29084
+24417 has cost 26940
+
+thread '<unnamed>' (52707) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52707 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/graphics/lod.fpcore'
+Starting Herbie 2.3 with seed 661811727...
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4069,
+    ),
+    egraph_nodes: 3833,
+    egraph_classes: 1374,
+    memo_size: 4069,
+    rebuilds: 61,
+    total_time: 0.012798242,
+    search_time: 0.007869041,
+    apply_time: 0.0032704229999999997,
+    rebuild_time: 0.000291934,
+}
+31 has cost 133
+51 has cost 143
+71 has cost 143
+86 has cost 135
+101 has cost 135
+116 has cost 135
+131 has cost 135
+137 has cost 135
+138 has cost 144
+139 has cost 144
+140 has cost 136
+141 has cost 136
+142 has cost 136
+143 has cost 136
+144 has cost 136
+166 has cost 133
+185 has cost 133
+206 has cost 133
+225 has cost 133
+244 has cost 133
+262 has cost 133
+282 has cost 133
+300 has cost 133
+318 has cost 133
+336 has cost 133
+354 has cost 133
+367 has cost 133
+381 has cost 133
+394 has cost 133
+408 has cost 133
+421 has cost 133
+433 has cost 133
+447 has cost 133
+460 has cost 133
+472 has cost 133
+484 has cost 133
+
+thread '<unnamed>' (52720) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52720 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/proj/somerc.fpcore'
+Starting Herbie 2.3 with seed 1990559956...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4062,
+    ),
+    egraph_nodes: 3493,
+    egraph_classes: 2450,
+    memo_size: 4062,
+    rebuilds: 168,
+    total_time: 0.009025832,
+    search_time: 0.00420975,
+    apply_time: 0.003406656,
+    rebuild_time: 0.000361818,
+}
+8 has cost 9
+13 has cost 9
+14 has cost 9
+
+thread '<unnamed>' (52732) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52732 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/proj/omerc.fpcore'
+Warning: unusual variable e; did you mean E?
+See <https://herbie.uwplse.org/doc/2.3/faq.html#strange-variable> for more.
+Starting Herbie 2.3 with seed 1043618686...
+Warning: could not determine a ground truth
+  E_var = 1.0114781270822036e+270
+  tsfn_phi = 2.6883674615744854e-277
+  B = 1.2704670436601529e+52
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4981,
+    ),
+    egraph_nodes: 4322,
+    egraph_classes: 1560,
+    memo_size: 4985,
+    rebuilds: 86,
+    total_time: 0.021676549,
+    search_time: 0.011199559,
+    apply_time: 0.008909888000000001,
+    rebuild_time: 0.0005334129999999999,
+}
+4 has cost 5
+6 has cost 6
+9 has cost 6
+12 has cost 5
+13 has cost 5
+14 has cost 7
+15 has cost 6
+17 has cost 5
+19 has cost 5
+21 has cost 5
+
+thread '<unnamed>' (52744) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52744 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/proj/krovak.fpcore'
+Starting Herbie 2.3 with seed 824829412...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        5732,
+    ),
+    egraph_nodes: 4928,
+    egraph_classes: 2281,
+    memo_size: 5748,
+    rebuilds: 222,
+    total_time: 0.02291447,
+    search_time: 0.014616398,
+    apply_time: 0.006152416,
+    rebuild_time: 0.000624649,
+}
+10 has cost 13
+17 has cost 13
+23 has cost 13
+24 has cost 14
+25 has cost 14
+32 has cost 13
+
+thread '<unnamed>' (52756) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52756 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/proj/som.fpcore'
+Starting Herbie 2.3 with seed 991752485...
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4018,
+    ),
+    egraph_nodes: 3813,
+    egraph_classes: 1563,
+    memo_size: 4040,
+    rebuilds: 80,
+    total_time: 0.008229595,
+    search_time: 0.003748661,
+    apply_time: 0.0032215950000000003,
+    rebuild_time: 0.000308724,
+}
+21 has cost 34
+37 has cost 34
+39 has cost 35
+42 has cost 35
+50 has cost 34
+59 has cost 34
+68 has cost 34
+69 has cost 35
+70 has cost 36
+71 has cost 36
+72 has cost 35
+73 has cost 35
+74 has cost 35
+89 has cost 34
+104 has cost 34
+119 has cost 34
+134 has cost 34
+149 has cost 34
+151 has cost 34
+158 has cost 34
+164 has cost 34
+170 has cost 34
+177 has cost 34
+183 has cost 34
+189 has cost 34
+195 has cost 34
+201 has cost 34
+207 has cost 34
+
+thread '<unnamed>' (52769) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52769 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/proj/tmerc.fpcore'
+Starting Herbie 2.3 with seed 1146622070...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        7962,
+    ),
+    egraph_nodes: 6935,
+    egraph_classes: 5085,
+    memo_size: 7964,
+    rebuilds: 435,
+    total_time: 0.018538631,
+    search_time: 0.009589443,
+    apply_time: 0.006281883,
+    rebuild_time: 0.000796052,
+}
+8 has cost 9
+15 has cost 10
+16 has cost 11
+
+thread '<unnamed>' (52781) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52781 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/arrays/ops.fpcore'
+Starting Herbie 2.3 with seed 1987329345...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4090,
+    ),
+    egraph_nodes: 3976,
+    egraph_classes: 1625,
+    memo_size: 4136,
+    rebuilds: 34,
+    total_time: 0.022690708,
+    search_time: 0.013016502,
+    apply_time: 0.00853796,
+    rebuild_time: 0.000409745,
+}
+5 has cost 7
+
+thread '<unnamed>' (52793) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52793 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/arrays/outputs.fpcore'
+Starting Herbie 2.3 with seed 10933216...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4022,
+    ),
+    egraph_nodes: 3806,
+    egraph_classes: 803,
+    memo_size: 4036,
+    rebuilds: 33,
+    total_time: 0.027393094,
+    search_time: 0.006172576999999999,
+    apply_time: 0.019990409,
+    rebuild_time: 0.000612454,
+}
+2 has cost 3
+
+thread '<unnamed>' (52806) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52806 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/arrays/basic.fpcore'
+Starting Herbie 2.3 with seed 9633259...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4392,
+    ),
+    egraph_nodes: 3963,
+    egraph_classes: 1715,
+    memo_size: 4415,
+    rebuilds: 225,
+    total_time: 0.014400155,
+    search_time: 0.00493727,
+    apply_time: 0.008294608,
+    rebuild_time: 0.00051509,
+}
+2 has cost 3
+
+thread '<unnamed>' (52819) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52819 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/tutorial.fpcore'
+Starting Herbie 2.3 with seed 1128607462...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4027,
+    ),
+    egraph_nodes: 2828,
+    egraph_classes: 1045,
+    memo_size: 4316,
+    rebuilds: 354,
+    total_time: 0.010573221,
+    search_time: 0.002403315,
+    apply_time: 0.007005835,
+    rebuild_time: 0.000764049,
+}
+3 has cost 1
+6 has cost 1
+7 has cost 1
+
+thread '<unnamed>' (52832) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52832 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/regression.fpcore'
+Starting Herbie 2.3 with seed 1968061180...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4303,
+    ),
+    egraph_nodes: 3589,
+    egraph_classes: 1136,
+    memo_size: 4340,
+    rebuilds: 174,
+    total_time: 0.013904423,
+    search_time: 0.007948724,
+    apply_time: 0.00469353,
+    rebuild_time: 0.00046300500000000006,
+}
+5 has cost 7
+9 has cost 7
+12 has cost 7
+15 has cost 7
+16 has cost 8
+17 has cost 7
+18 has cost 7
+21 has cost 7
+24 has cost 7
+25 has cost 7
+
+thread '<unnamed>' (52844) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52844 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/excel.fpcore'
+Starting Herbie 2.3 with seed 727198361...
+
+Going for 'bench/mathematics/arvind.fpcore'
+Starting Herbie 2.3 with seed 869629400...
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4057,
+    ),
+    egraph_nodes: 1640,
+    egraph_classes: 666,
+    memo_size: 4582,
+    rebuilds: 957,
+    total_time: 0.007453987,
+    search_time: 0.0024448280000000005,
+    apply_time: 0.003943475,
+    rebuild_time: 0.000675087,
+}
+5 has cost 3
+9 has cost 3
+13 has cost 3
+14 has cost 3
+15 has cost 3
+17 has cost 3
+
+thread '<unnamed>' (52860) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52860 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/statistics.fpcore'
+Starting Herbie 2.3 with seed 670038306...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4025,
+    ),
+    egraph_nodes: 3281,
+    egraph_classes: 991,
+    memo_size: 4033,
+    rebuilds: 163,
+    total_time: 0.014217554,
+    search_time: 0.008483573000000001,
+    apply_time: 0.00431227,
+    rebuild_time: 0.00042276399999999995,
+}
+18 has cost 29
+29 has cost 28
+40 has cost 29
+48 has cost 28
+49 has cost 29
+50 has cost 28
+51 has cost 29
+60 has cost 29
+72 has cost 29
+83 has cost 29
+
+thread '<unnamed>' (52872) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52872 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/hyperbolic-functions.fpcore'
+Starting Herbie 2.3 with seed 380668682...
+Warning: 50.2% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4007,
+    ),
+    egraph_nodes: 3922,
+    egraph_classes: 1862,
+    memo_size: 4035,
+    rebuilds: 39,
+    total_time: 0.00613971,
+    search_time: 0.001433349,
+    apply_time: 0.00376648,
+    rebuild_time: 0.00030136400000000004,
+}
+6 has cost 2
+10 has cost 3
+11 has cost 2
+
+thread '<unnamed>' (52884) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52884 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/latlong.fpcore'
+Warning: unused variable phi2
+See <https://herbie.uwplse.org/doc/2.3/faq.html#unused-variable> for more.
+Starting Herbie 2.3 with seed 617165164...
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        4129,
+    ),
+    egraph_nodes: 4068,
+    egraph_classes: 2603,
+    memo_size: 4140,
+    rebuilds: 19,
+    total_time: 0.008428806,
+    search_time: 0.0034526139999999997,
+    apply_time: 0.003311477,
+    rebuild_time: 0.000288846,
+}
+25 has cost 55
+27 has cost 56
+40 has cost 57
+53 has cost 55
+69 has cost 57
+85 has cost 55
+86 has cost 57
+87 has cost 58
+88 has cost 56
+89 has cost 58
+90 has cost 56
+102 has cost 55
+114 has cost 55
+129 has cost 55
+143 has cost 55
+155 has cost 55
+173 has cost 55
+190 has cost 55
+208 has cost 55
+219 has cost 55
+233 has cost 55
+
+thread '<unnamed>' (52896) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52896 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/sarnoff.fpcore'
+Warning: unusual variable e; did you mean E?
+See <https://herbie.uwplse.org/doc/2.3/faq.html#strange-variable> for more.
+Starting Herbie 2.3 with seed 1465167928...
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4320,
+    ),
+    egraph_nodes: 3866,
+    egraph_classes: 1707,
+    memo_size: 4322,
+    rebuilds: 100,
+    total_time: 0.00875853,
+    search_time: 0.003796879,
+    apply_time: 0.0037587490000000005,
+    rebuild_time: 0.00038054600000000005,
+}
+13 has cost 16
+21 has cost 16
+27 has cost 16
+33 has cost 16
+34 has cost 16
+35 has cost 16
+36 has cost 16
+44 has cost 16
+51 has cost 16
+57 has cost 16
+
+thread '<unnamed>' (52908) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52908 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/logistic-regression.fpcore'
+Starting Herbie 2.3 with seed 684582933...
+Warning: could not determine a ground truth
+  x = 3.28336669532827e+170
+  y = 1.785740746530039e-159
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4141,
+    ),
+    egraph_nodes: 3768,
+    egraph_classes: 1508,
+    memo_size: 4171,
+    rebuilds: 97,
+    total_time: 0.012418673,
+    search_time: 0.006263573,
+    apply_time: 0.004987069,
+    rebuild_time: 0.00042685499999999996,
+}
+7 has cost 9
+13 has cost 10
+16 has cost 9
+17 has cost 11
+18 has cost 10
+23 has cost 9
+
+thread '<unnamed>' (52920) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52920 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/dirichlet-mixture-model.fpcore'
+Starting Herbie 2.3 with seed 1109731285...
+Warning: could not determine a ground truth
+  c_p = 1.2870749112240802e-28
+  c_n = 2.0198021538836773e-131
+  t = 1.9718729688085258e+84
+  s = -2.951515200863263e+297
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 3,
+    stop_reason: NodeLimit(
+        4475,
+    ),
+    egraph_nodes: 4339,
+    egraph_classes: 1428,
+    memo_size: 4493,
+    rebuilds: 30,
+    total_time: 0.015156978,
+    search_time: 0.008549977,
+    apply_time: 0.004920618999999999,
+    rebuild_time: 0.00039849199999999997,
+}
+21 has cost 43
+27 has cost 45
+33 has cost 45
+42 has cost 41
+51 has cost 41
+52 has cost 46
+53 has cost 46
+54 has cost 42
+55 has cost 42
+62 has cost 43
+72 has cost 43
+77 has cost 43
+87 has cost 43
+92 has cost 43
+93 has cost 43
+
+thread '<unnamed>' (52932) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52932 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/beta-distribution.fpcore'
+Starting Herbie 2.3 with seed 1116863222...
+Warning: 59.0% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        4845,
+    ),
+    egraph_nodes: 4130,
+    egraph_classes: 1583,
+    memo_size: 4848,
+    rebuilds: 133,
+    total_time: 0.017742605,
+    search_time: 0.01026496,
+    apply_time: 0.0060834,
+    rebuild_time: 0.000528121,
+}
+7 has cost 11
+13 has cost 11
+17 has cost 11
+18 has cost 11
+19 has cost 11
+24 has cost 11
+
+thread '<unnamed>' (52944) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52944 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/xkcd-expr.fpcore'
+Starting Herbie 2.3 with seed 1576508805...
+[src/lib.rs:243:9] report = Report {
+    iterations: 5,
+    stop_reason: NodeLimit(
+        4001,
+    ),
+    egraph_nodes: 2977,
+    egraph_classes: 940,
+    memo_size: 4010,
+    rebuilds: 352,
+    total_time: 0.015829565,
+    search_time: 0.009868953,
+    apply_time: 0.004858812,
+    rebuild_time: 0.00046928599999999997,
+}
+4 has cost 6
+
+thread '<unnamed>' (52956) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52956 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/symmetry.fpcore'
+Starting Herbie 2.3 with seed 994373709...
+Warning: could not determine a ground truth
+  a = 3.0677332122187403e+88
+  b = -1907900644716117500.0
+See <https://herbie.uwplse.org/doc/2.3/faq.html#ground-truth> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 4,
+    stop_reason: NodeLimit(
+        5719,
+    ),
+    egraph_nodes: 5314,
+    egraph_classes: 2226,
+    memo_size: 5747,
+    rebuilds: 92,
+    total_time: 0.013395168,
+    search_time: 0.006049396,
+    apply_time: 0.0058357159999999995,
+    rebuild_time: 0.000515195,
+}
+5 has cost 6
+9 has cost 7
+13 has cost 7
+14 has cost 8
+15 has cost 8
+17 has cost 6
+
+thread '<unnamed>' (52969) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52969 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/mathematics/gui.fpcore'
+Starting Herbie 2.3 with seed 1889857891...
+Warning: 65.8% of points produce a very large (infinite) output. You may want to add a precondition.
+See <https://herbie.uwplse.org/doc/2.3/faq.html#inf-points> for more.
+[src/lib.rs:243:9] report = Report {
+    iterations: 2,
+    stop_reason: NodeLimit(
+        5391,
+    ),
+    egraph_nodes: 4714,
+    egraph_classes: 1945,
+    memo_size: 5483,
+    rebuilds: 232,
+    total_time: 0.013080002,
+    search_time: 0.00687592,
+    apply_time: 0.0042667320000000005,
+    rebuild_time: 0.000453503,
+}
+38 has cost 83
+60 has cost 83
+82 has cost 83
+109 has cost 89
+118 has cost 83
+125 has cost 83
+126 has cost 83
+127 has cost 83
+128 has cost 89
+129 has cost 83
+130 has cost 83
+146 has cost 83
+175 has cost 83
+196 has cost 83
+217 has cost 83
+245 has cost 83
+261 has cost 83
+277 has cost 83
+303 has cost 83
+329 has cost 83
+339 has cost 83
+
+thread '<unnamed>' (52982) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52982 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
+Going for 'bench/haskell.fpcore'
+Starting Herbie 2.3 with seed 82097211...
+[src/lib.rs:243:9] report = Report {
+    iterations: 6,
+    stop_reason: NodeLimit(
+        4008,
+    ),
+    egraph_nodes: 3513,
+    egraph_classes: 960,
+    memo_size: 4082,
+    rebuilds: 110,
+    total_time: 0.034235856,
+    search_time: 0.022193844,
+    apply_time: 0.010765323,
+    rebuild_time: 0.000515216,
+}
+3 has cost 4
+6 has cost 4
+9 has cost 4
+10 has cost 5
+11 has cost 5
+13 has cost 4
+
+thread '<unnamed>' (52994) panicked at src/lib.rs:250:9:
+explicit panic
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+fatal runtime error: failed to initiate panic, error 5, aborting
+./run.sh: line 5: 52994 Aborted                    (core dumped) racket -l herbie improve "$x" a.fpcore
