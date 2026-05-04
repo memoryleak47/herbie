@@ -156,7 +156,6 @@ fn eqsat_fn() -> fn(&mut Context, usize, usize) -> Report {
 }
 
 fn eqsat_detour(context: &mut Context, node_limit: usize, iter_limit: usize) -> Report {
-    let mut eg = context.runner.egraph.clone();
     let roots = context.runner.roots.clone();
     let hook = Box::new(|eg: &mut EGraph| {
         if eg.analysis.unsound.load(Ordering::SeqCst) {
@@ -166,12 +165,12 @@ fn eqsat_detour(context: &mut Context, node_limit: usize, iter_limit: usize) -> 
         }
     });
     let cf: for<'a> fn(&'a _) -> _ = |_|1;
-    let cfg_offset = 300;
-    let cfg_unreachable_cost = 300;
+    let cfg_offset = 30;
+    let cfg_unreachable_cost = 30_000;
     crate::detour::detour_run(
         &*roots,
         &context.rules,
-        &mut eg,
+        &mut context.runner.egraph,
         &mut [hook],
         Duration::from_secs(u64::MAX),
         node_limit as _,
