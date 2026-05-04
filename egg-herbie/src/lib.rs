@@ -244,8 +244,8 @@ pub unsafe extern "C" fn egraph_run(
         let extractor = Extractor::new(&context.runner.egraph, AltCost::new(&context.runner.egraph));
         for r in &context.runner.roots {
                 let (cost, best) = extractor.find_best(*r);
-                let ext = Extracted { cost, best };
-                eprintln!("{r} has cost {cost}");
+                eprintln!("{r} has cost {cost} via {best}");
+                let _ext = Extracted { cost, best };
         }
         panic!();
     }
