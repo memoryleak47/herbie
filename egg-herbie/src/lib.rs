@@ -1,6 +1,6 @@
 #![allow(clippy::missing_safety_doc)]
 
-pub mod detour;
+pub mod scheduler;
 pub mod math;
 
 use egg::{BackoffScheduler, FromOp, Id, Language, SimpleScheduler, StopReason};
@@ -142,7 +142,7 @@ fn egraph_run_inner(
     node_limit: usize,
     iter_limit: usize,
 ) -> Box<Context> {
-    let detour_active = node_limit < u32::MAX as usize;
+    let scheduler_active = node_limit < u32::MAX as usize;
 
     context.runner = context
         .runner
@@ -157,8 +157,8 @@ fn egraph_run_inner(
             }
         });
 
-    context.runner = if detour_active {
-        use crate::detour::*;
+    context.runner = if scheduler_active {
+        use crate::scheduler::*;
 
         let limits = Limits {
             node_limit,
@@ -172,7 +172,7 @@ fn egraph_run_inner(
             unreachable_cost: 30_000,
         };
 
-        detour_run(context.runner, &context.rules, limits, cfg)
+        scheduler::run(context.runner, &context.rules, limits, cfg)
     } else {
         context.runner.run(&context.rules)
     };
