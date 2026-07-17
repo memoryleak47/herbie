@@ -33,4 +33,4 @@ herbie-compiled/
 .env/
 .worktrees
 
-egg-hergie/src/scheduler.rs
+egg-herbie/src/scheduler.rs
